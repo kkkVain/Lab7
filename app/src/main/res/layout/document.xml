@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:gravity="top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp">
+        <Button
+            android:id="@+id/mySave"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAVE"
+            />
+        <Button
+            android:id="@+id/myLoad"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="LOAD"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/secClear"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>
